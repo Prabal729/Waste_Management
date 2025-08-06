@@ -1,0 +1,12 @@
+pandas              # Data loading and manipulation
+numpy               # Numerical operations
+scikit-learn        # Machine learning algorithms, encoding, evaluation
+xgboost             # Advanced gradient boosting model (optional but recommended)
+lightgbm            # Alternative gradient boosting model (optional)
+catboost            # Another popular boosting model with categorical support (optional)
+matplotlib          # Basic plots and visualization
+seaborn             # Advanced statistical visualizations
+plotly              # Interactive visualizations (optional)
+folium              # Geospatial visualizations (optional)
+flask               # Building web app for model deployment
+joblib              # Model saving and loading
