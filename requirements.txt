@@ -10,3 +10,4 @@ plotly              # Interactive visualizations (optional)
 folium              # Geospatial visualizations (optional)
 flask               # Building web app for model deployment
 joblib              # Model saving and loading
+streamlit
