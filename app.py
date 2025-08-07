@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import time
+import os
 
 # Load model
 model_path = os.path.join("models", "random_forest_tuned_model.pkl")
@@ -185,5 +186,6 @@ if submitted:
     except Exception as e:
         progress_bar.empty()
         st.error(f"Error in prediction: {e}")
+
 
 
