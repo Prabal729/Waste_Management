@@ -4,7 +4,7 @@ import joblib
 import time
 
 # Load model
-model_path = r'D:/Portfolio/waste_management/models/random_forest_tuned_model.pkl'
+model_path = os.path.join("models", "random_forest_tuned_model.pkl")
 model = joblib.load(model_path)
 
 # Configure page
@@ -185,4 +185,5 @@ if submitted:
     except Exception as e:
         progress_bar.empty()
         st.error(f"Error in prediction: {e}")
+
 
